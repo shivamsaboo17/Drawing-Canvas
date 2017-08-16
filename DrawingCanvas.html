@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drawing Canvas</title>
+        
+        <link rel="stylesheet" href="master.css">
+    </head>
+    <body style="margin:0">
+        <div id="toolbar">
+            <div id="rad">
+                Brush Size <span id="radval">10</span>
+                <div id="decrad" class="radcontrol">-</div>
+                <div id="incrad" class="radcontrol">+</div>
+            </div>
+            <div id="heading">Color Canvas</div>
+            <div id="blue1"></div>
+            <div id="red1"></div>
+            <div id="orange1"></div>
+            <div id="black1"></div>
+            <div id="yellow1"></div>
+            <div id="green1"></div>
+            
+            <div id="clear">Clear Canvas</div>
+            <a id="download"><div id="dwnldimg"><img src="Images/Simple-Download-icon.png">Download Canvas As Image</div></a>
+            
+            
+        </div>
+        <canvas id="drawingCanvas" height="100%" width="70%" ></canvas>
+        <script src="main.js"></script>
+        <script src="radius.js"></script>
+    </body>
+</html>
