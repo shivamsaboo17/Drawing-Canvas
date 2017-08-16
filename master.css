@@ -1,0 +1,130 @@
+*{
+    -webkit-user-select: none;
+    background-color: #2f2f2f;
+}
+
+
+
+#toolbar{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    top: 0;
+    position: fixed;
+    background-color: #2f2f2f;
+    color: white;
+    font-family: sans-serif;
+}
+
+.radcontrol{
+    width: 30px;
+    height: 30px;
+    background-color: #4f4f4f;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    
+}
+
+#drawingCanvas{
+    background-color: white;
+}
+
+#heading{
+    float: right;
+    color: white;
+    font-size: 30px;
+    padding-right: 50px;
+    
+}
+
+#blue1{
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: dodgerblue;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+
+#red1{
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    right: 60px;
+}
+
+#orange1{
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: orange;
+    position: absolute;
+    top: 150px;
+    right: 130px;
+}
+
+#black1{
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: black;
+    position: absolute;
+    top: 210px;
+    right: 200px;
+}
+
+#yellow1{
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: yellow;
+    position: absolute;
+    top: 210px;
+    right: 60px;
+}
+
+#green1{
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: forestgreen;
+    position: absolute;
+    top: 210px;
+    right: 130px;
+}
+
+#clear{
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    right: 600px;
+    font-size: 20px;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
+
+#dwnldimg{
+    position: absolute;
+    right: 40px;
+    top: 300px;
+    
+}
+#download{
+    color: white;
+}
